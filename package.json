@@ -7,7 +7,8 @@
     "Dominique Rochefort <> (https://github.com/drochgenius)"
   ],
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "postinstall": "patch-package"
   },
   "private": true,
   "devDependencies": {
@@ -16,5 +17,8 @@
     "mathjax": "2.7.5",
     "uglify-js": "^3.0.0",
     "write": "^1.0.0"
+  },
+  "dependencies": {
+    "patch-package": "^6.4.7"
   }
 }
