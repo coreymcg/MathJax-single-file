@@ -12507,8 +12507,6 @@ MathJax.OutputJax.SVG.loadComplete("config.js");
   //  Get the URL of the page (for use with xlink:href) when there
   //  is a <base> element on the page.
   //  
-  var SVGURL = (document.getElementsByTagName("base").length === 0) ? "" :
-                String(document.location).replace(/#.*$/,"");
 
   SVG.Augment({
     HFUZZ: 2,     // adjustments for height and depth of final svg element
@@ -13597,7 +13595,7 @@ MathJax.OutputJax.SVG.loadComplete("config.js");
       if (cache) {
         def = {}; if (transform) {def.transform = transform}
         this.element = SVG.Element("use",def);
-        this.element.setAttributeNS(XLINKNS,"href",SVGURL+"#"+id);
+        this.element.setAttributeNS(XLINKNS,"href","#"+id);
       }
       this.h = (h+t) * scale; this.d = (d+t) * scale; this.w = (w+t/2) *scale;
       this.l = (l+t/2) * scale; this.r = (r+t/2) * scale;
