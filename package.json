@@ -14,11 +14,10 @@
   "devDependencies": {
     "browser-sync": "^2.24.6",
     "concat-with-sourcemaps": "^1.1.0",
+    "patch-package": "^6.4.7",
     "mathjax": "2.7.5",
     "uglify-js": "^3.0.0",
     "write": "^1.0.0"
   },
-  "dependencies": {
-    "patch-package": "^6.4.7"
-  }
+  "dependencies": {}
 }
