@@ -7,8 +7,7 @@
     "Dominique Rochefort <> (https://github.com/drochgenius)"
   ],
   "scripts": {
-    "build": "node build.js",
-    "postinstall": "patch-package"
+    "build": "node build.js"
   },
   "private": true,
   "devDependencies": {
