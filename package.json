@@ -14,9 +14,8 @@
     "browser-sync": "^2.24.6",
     "concat-with-sourcemaps": "^1.1.0",
     "uglify-js": "^3.0.0",
-    "write": "^1.0.0"
-  },
-  "dependencies": {
+    "write": "^1.0.0",
     "mathjax": "2.7.5"
-  }
+  },
+  "dependencies": {}
 }
